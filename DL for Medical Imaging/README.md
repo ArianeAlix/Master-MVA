@@ -1,7 +1,7 @@
 # Project for the Deep Learning for Medical Imaging course
 
 ## Title
-Vessel Extraction from Retinal Images
+Vessel Extraction from Retinal Images (DRIVE dataset)
 
 ## Abstract
 In this work, we present a description and evaluation of our
