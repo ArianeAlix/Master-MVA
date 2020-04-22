@@ -1,0 +1,3 @@
+( (SENT (VN (CLS Je) (V mange)) (NP (DET une) (NC pomme)) (PONCT .)))
+( (SENT (NP (DET Le) (NC cheval)) (VN (V est)) (PP (P dans) (NP (DET les) (NC champs))) (PONCT .)))
+( (SENT (NP (DET Une) (NC salade) (PP (P de) (NP (NC fruits)))) (PONCT .)))
