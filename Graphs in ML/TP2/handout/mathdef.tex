@@ -1,0 +1,215 @@
+\newcommand{\wt}{\widetilde}
+\newcommand{\wh}{\widehat}
+
+
+\newcommand{\ba}{\bold{a}}
+\newcommand{\bb}{\bold{b}}
+\newcommand{\bc}{\bold{c}}
+\newcommand{\bd}{\bold{d}}
+\newcommand{\be}{\bold{e}}
+\newcommand{\bof}{\bold{f}}
+\newcommand{\bg}{\bold{g}}
+\newcommand{\bh}{\bold{h}}
+\newcommand{\bi}{\bold{i}}
+\newcommand{\bj}{\bold{j}}
+\newcommand{\bk}{\bold{k}}
+\newcommand{\bl}{\bold{l}}
+\newcommand{\bm}{\bold{m}}
+\newcommand{\bn}{\bold{n}}
+\newcommand{\bo}{\bold{o}}
+\newcommand{\bp}{\bold{p}}
+\newcommand{\bq}{\bold{q}}
+\newcommand{\br}{\bold{r}}
+\newcommand{\bs}{\bold{s}}
+\newcommand{\bt}{\bold{t}}
+\newcommand{\bu}{\bold{u}}
+\newcommand{\bv}{\bold{v}}
+\newcommand{\bw}{\bold{w}}
+\newcommand{\bx}{\bold{x}}
+\newcommand{\by}{\bold{y}}
+\newcommand{\bz}{\bold{z}}
+\newcommand{\bA}{\bold{A}}
+\newcommand{\bB}{\bold{B}}
+\newcommand{\bC}{\bold{C}}
+\newcommand{\bD}{\bold{D}}
+\newcommand{\oD}{\overline{D}}
+\newcommand{\bE}{\bold{E}}
+\newcommand{\bF}{\bold{F}}
+\newcommand{\bG}{\bold{G}}
+\newcommand{\bH}{\bold{H}}
+\newcommand{\bI}{\bold{I}}
+\newcommand{\bJ}{\bold{J}}
+\newcommand{\bK}{\bold{K}}
+\newcommand{\bL}{\bold{L}}
+\newcommand{\bM}{\bold{M}}
+\newcommand{\bN}{\bold{N}}
+\newcommand{\bO}{\bold{O}}
+\newcommand{\bP}{\bold{P}}
+\newcommand{\bQ}{\bold{Q}}
+\newcommand{\bR}{\bold{R}}
+\newcommand{\bS}{\bold{S}}
+\newcommand{\bT}{\bold{T}}
+\newcommand{\bU}{\bold{U}}
+\newcommand{\bV}{\bold{V}}
+\newcommand{\bW}{\bold{W}}
+\newcommand{\bX}{\bold{X}}
+\newcommand{\oX}{\overline{X}}
+\newcommand{\bY}{\bold{Y}}
+\newcommand{\bZ}{\bold{Z}}
+\newcommand{\calS}{\mathcal{S}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% definitions for hyperref %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%fix counters
+%\usepackage{aliascnt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Optimization problems    %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\probmtflprimal}{\mathcal{E}_{\mbox{\tiny MTFL}}}
+\newcommand{\probmtfldual}{\mathcal{C}_{\mbox{\tiny MTFL}}}
+\newcommand{\probmtfldualeps}{\mathcal{C}_{\mbox{$\varepsilon$-\tiny {MTFL}}}}
+\newcommand{\mtflmodprimal}{\mathcal{E}}
+\newcommand{\mtflmoddual}{\mathcal{C}}
+\newcommand{\mtflmoddualeps}{{\mathcal{C}_{\vareps}}}
+\newcommand{\mtflmoddualmerge}{{\mathcal{S}_{\vareps}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Algorithms stuff         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\algnewcommand\algorithmicinput{\textbf{input:}}
+%\algnewcommand\Input{\item[\algorithmicinput]}
+%\algnewcommand\algorithmicoutput{\textbf{output:}}
+%\algnewcommand\Output{\item[\algorithmicoutput]}
+%\algdef{SE}[DOWHILE]{Do}{DoWhile}{\algorithmicdo}[1]{\algorithmicwhile\ #1}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Matrix operators         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\transp}{\mathsf{T}}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\trace}{trace}
+\DeclareMathOperator*{\range}{Ran}
+\DeclareMathOperator*{\kernel}{Ker}
+\DeclareMathOperator*{\diag}{Diag}
+\DeclareMathOperator*{\Vecm}{Vec}
+\DeclareMathOperator*{\Rank}{Rank}
+\DeclareMathOperator*{\Row}{Row}
+\DeclareMathOperator*{\Col}{Col}
+\DeclareMathOperator*{\Op}{\textbf{op}}
+\DeclareMathOperator*{\nnz}{\textbf{nnz}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Norms                    %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\norm}[2]{\left\Vert #1 \right\Vert_{#2}}
+\newcommand{\normsmall}[2]{\Vert #1 \Vert_{#2}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Statistic operators      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\probability}{\mathbb{P}}
+\newcommand{\probdist}{Pr}
+\DeclareMathOperator*{\expectedvalue}{\mathbb{E}}
+\newcommand{\expectedvalueover}[1]{\expectedvalue\limits_{#1}}
+\newcommand{\gaussdistr}{\mathcal{N}}
+\newcommand{\uniformdistr}{\mathcal{U}}
+\newcommand{\indvec}{J}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Algebraic Sets           %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\realnumbers}{\mathbb{R}}
+\newcommand{\realnumberssdp}{\mathbb{R}_{+}}
+\newcommand{\realnumbersdp}{\mathbb{R}_{++}}
+\newcommand{\naturalnumbers}{\mathbb{N}}
+\newcommand{\symmetricsdp}{\boldsymbol{S}^{d}_{+}}
+\newcommand{\symmetricdp}{\boldsymbol{S}^{d}_{++}}
+\newcommand{\symmetric}{\boldsymbol{S}^{d}}
+\newcommand{\orthogonal}{\boldsymbol{O}^{d}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% MDP related notation     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\statespace}{\mathcal{X}}
+\newcommand{\statespacedisc}{S}
+\newcommand{\actionspace}{\mathcal{A}}
+\newcommand{\transitionspace}{\mathcal{P}}
+\newcommand{\transitionkernel}{P}
+\newcommand{\rewardspace}{\mathcal{R}}
+\newcommand{\rewardkernel}{R}
+\newcommand{\epochset}{\mathcal{T}}
+\newcommand{\trajspace}{\mathcal{H}}
+\newcommand{\funcspace}{\mathcal{F}}
+\newcommand{\dataset}{\mathcal{D}}
+\newcommand{\Qfuncspace}{\mathcal{Q}}
+\newcommand{\borelsetspace}{\mathcal{B}}
+\newcommand{\kernelspace}{\mathcal{K}}
+%\newcommand{\muset}{\boldsymbol\mu}
+\newcommand{\muset}{\mu_{\pi}}
+%\newcommand{\rhoset}{\boldsymbol\rho}
+\newcommand{\rhoset}{\rho_{\pi}}
+\newcommand{\rewardaverage}{R}
+\newcommand{\rewardsample}{r}
+\newcommand{\rewardsamplevec}{\br}
+%\newcommand{\optbellop}{\mathcal{T}^{*}}
+\newcommand{\optbellop}{\mathcal{T}}
+\newcommand{\T}{\mathcal{T}}
+\newcommand{\D}{\mathcal{P}}
+\renewcommand{\Re}{\mathbb{R}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Short version of notation %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\wrt}{w.r.t. }
+%\newcommand{\defeq}{\stackrel{\mathclap{\normalfont\mbox{\tiny def}}}{=}}
+\newcommand{\maxund}[1]{\max\limits_{#1}}
+\newcommand{\minund}[1]{\min\limits_{#1}}
+\newcommand{\vareps}{\varepsilon}
+\newcommand{\bigotime}{\mathcal{O}}
+%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%
+
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{lemma}{Lemma}
+%\newtheorem{corollary}{Corollary}
+%\newtheorem{proposition}{Proposition}
+%%\newtheorem{definition}{Definition}
+%\newtheorem{assumption}{Assumption}
+%%\newtheorem{remark}{Remark}
+
+\newcommand{\gl}{{\sc GL}\xspace}
+\newcommand{\mtfl}{{\sc MTFL}\xspace}
+\newcommand{\fqi}{{\sc F$Q$I}\xspace}
+\newcommand{\lassofqi}{{\sc LASSO--F$Q$I}\xspace}
+\newcommand{\glfqi}{{\sc GL--F$Q$I}\xspace}
+\newcommand{\flfqi}{{\sc FL--F$Q$I}\xspace}
+\newcommand{\lasso}{{\sc LASSO}\xspace}
+
+
+
+%\newaliascnt{lemma}{theorem}
+%\newtheorem{lemma}[lemma]{Lemma}
+%\aliascntresetthe{lemma}
+%\providecommand*{\lemmaautorefname}{Lemma}
+%\newaliascnt{corollary}{theorem}
+%\newtheorem{corollary}[corollary]{Corollary}
+%\aliascntresetthe{corollary}
+%\providecommand*{\corollaryautorefname}{Corollary}
+%\newaliascnt{proposition}{theorem}
+%\newtheorem{proposition}[proposition]{Proposition}
+%\aliascntresetthe{proposition}
+%\providecommand*{\propositionautorefname}{Proposition}
+%\newaliascnt{definition}{theorem}
+%\newtheorem{definition}[definition]{Definition}
+
+%\aliascntresetthe{definition}
+%\providecommand*{\definitionautorefname}{Definition}
+%\newaliascnt{assumption}{theorem}
+%\newtheorem{assumption}[assumption]{Assumption}
+%\aliascntresetthe{assumption}
+%\providecommand*{\assumptionautorefname}{Assumption}
+
+
+%\newenvironment{remark}[1][Remark]{\begin{trivlist}
+%\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+
+
